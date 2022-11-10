@@ -1,0 +1,43 @@
+.footer {
+    background-color: $bgColor-brand;
+    color: $txtColor-inv;
+    padding-block: $spacing-200;
+
+    &-top {
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: $spacing-200;
+        border-bottom: 1px solid rgba($bgColor-accent-hover, 0.4);
+    }
+
+    &-bottom {
+        width: 100%;
+        padding-block: $spacing-200;
+    }
+
+    &-follow {
+        display: flex;
+        align-items: center;
+
+        span {
+            margin: 0 $spacing-50 $spacing-50 0 ;
+
+        }
+    }
+    &-copyright {
+        display: flex;
+        flex-wrap: wrap;
+
+        p {
+            margin-bottom:$spacing-50;
+
+            @mixin atMedium {
+                margin-bottom: auto;
+            }
+        }
+
+        &-separator {
+            margin-inline: $spacing-200;
+        }
+    }
+}

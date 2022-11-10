@@ -1,0 +1,9 @@
+body{
+    font-family: $fontFamily-H;
+    font-size: $txtBody-medium;
+    line-height: $lineHeight-text;
+}
+
+h1, h2, h3, h4 {
+    line-height: $lineHeight-heading;
+}

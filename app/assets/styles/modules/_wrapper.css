@@ -1,0 +1,5 @@
+.wrapper {
+	width: min(100% - $spacing-300, $site-maxWidth);
+	margin-left: auto;
+	margin-right: auto;
+}

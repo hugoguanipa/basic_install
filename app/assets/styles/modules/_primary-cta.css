@@ -1,0 +1,15 @@
+.primary-cta {
+    a {
+        border: 2px solid $bgColor-brand;
+        padding: $spacingMedium $spacingLarge;
+        color: $bgColor-brand;
+        line-height: $lineHeight-link;
+        background-color: $bgColor-accent;
+        transition: $animation-timing;
+
+        &:hover {
+            background-color: $bgColor-brand;
+            color: $txtColor-inv;
+        }
+    }
+}

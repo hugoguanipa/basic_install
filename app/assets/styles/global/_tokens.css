@@ -1,0 +1,126 @@
+ /* Global Tokens */
+$site-maxWidth:1400px;
+
+/* COLORS */
+$colorBlue-100:#EFF6FF;
+$colorBlue-300:#0077FF;
+$colorBlue-400:#0028786B;
+$colorBlue-500:#0A151E;
+$colorGrey-400:#CCCCCC;
+$colorWhite:#FFFFFF;
+$colorBlack:#000000;
+
+/* Font Family */
+$fontFamily-H: acumin-pro, sans-serif;
+
+/* Font Size */
+$fontSize-100:.9rem;
+$fontSize-200:1.1rem;
+$fontSize-300:1.3rem;
+$fontSize-400:1.8rem;
+$fontSize-500:2.2rem;
+$fontSize-600:2.8rem;
+$fontSize-700:3.4rem;
+$fontSize-800:4.8rem;
+$f-fontSize-600: clamp(1.60rem, calc(1.25rem + 1.17vw), 2.20rem);
+$f-fontSize-700: clamp(2.00rem, calc(1.56rem + 1.46vw), 2.75rem);
+$f-fontSize-800: clamp(2.50rem, calc(1.95rem + 1.83vw), 3.44rem);
+
+/* Font Weight and Line Height */
+$fontWeight-text:400;
+$fontWeight-heading:700;
+$lineHeight-text: 1.5;
+$lineHeight-link: 1.2;
+$lineHeight-heading: 1.1;
+
+/* SPACING */
+$spacing-0:0;
+$spacing-20:0.2rem;
+$spacing-50:0.5rem;
+$spacing-80:0.8rem;
+$spacing-100:1rem;
+$spacing-180:1.8rem;
+$spacing-200:2rem;
+$spacing-300:3rem;
+$spacing-400:4rem;
+$spacing-500:5rem;
+$spacing-600:6rem;
+$spacing-700:7rem;
+$spacing-800:8rem;
+
+$f-spacing-300:clamp(1.50rem, calc(-0.44rem + 3.93vw), 3.00rem);
+
+/* GENERAL */
+$animation-timing: all .3s ease-in-out;
+$scale-factor: 1.05;
+$border-width-thin: 1px;
+
+/* Contextual Tokens */
+/* TYPOGRAPHY */
+$txtColor-inv: $colorWhite;
+$txtColor-brand: $colorBlue-500;
+$heading1:$f-fontSize-800;
+$heading2:$f-fontSize-700;
+$heading3:$f-fontSize-600;
+$txtBody-large:$fontSize-300;
+$txtBody-medium:$fontSize-200;
+$txtBody-small:$fontSize-100;
+
+/* COLORS */
+$bgColor-brand:$colorBlue-500;
+$bgColor-accent:$colorBlue-400;
+$bgColor-accent:$colorWhite;
+$bgColor-accent-hover:$colorBlue-100;
+
+/* SPACING */
+$spacingZero:$spacing-0;
+$spacingSmall:$spacing-50;
+$spacingMedium:$spacing-80;
+$spacingLarge:$spacing-180;
+
+$radiusSmall:0;
+$radiusMedium:0;
+$radiusLarge:0;
+
+/* Component Tokens */
+$bodyBackground: $bgColor-brand;
+$bodyBackground-inv: $colorWhite;
+$bodyTxtColor: $colorWhite;
+$bodyTxtColor-inv: $txtColor-brand;
+$bodyLineHeight: $lineHeight-text;
+
+$headerBackground:$colorWhite;
+$headerBackground-inv:$bgColor-brand;
+$headerTxtUnderline-hover:$colorBlue-300;
+$headerFontWeight: $fontWeight-heading;
+$headerFontSize:$txtBody-medium;
+
+$footerBackground:$bgColor-brand;
+$footerLinkColor: $colorWhite;
+
+$ctaTxtColor:$bgColor-brand;
+$ctaTxtColor-hover:$colorWhite;
+$ctaBackgroundColor-hover:$bgColor-brand;
+
+/* $card-max-width: 300px;
+$card-max-count: 2;
+
+$card-link-color: $color-text-default;
+$card-image-radius: var($radius-medium);
+$card-text-size: var($text-medium-font-size);
+$card-heading-color: var($color-text-accent);
+$card-text-color: var($color-text-default);
+
+$button-text-color: var($color-text-default);
+$button-background-color: var($color-background-accent);
+$button-border: var($border-width-thin) solid transparent;
+$button-padding: var($spacing-small) var($spacing-medium);
+$button-radius: var($radius-small);
+$button-font-size: var($text-medium-font-size);
+$button-font-weight: var($font-weight-bold);
+$button-hover-background-color: var($color-background-accent-hover);
+
+$main-max-width: calc((var($card-max-width) * var($card-max-count)) + var($spacing-gutter) * (var($card-max-count) + 3));
+$main-background-color: var($color-background-surface);
+$main-text-color: var($color-text-default);
+$main-border-radius: var($radius-large); */

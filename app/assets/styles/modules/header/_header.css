@@ -1,0 +1,43 @@
+.header {
+	.wrapper {
+		display: grid;
+		grid-template-columns: max-content 1fr auto;
+		gap: $f-spacing-300;
+	}
+
+	.nav, .primary-cta {
+		align-self: center;
+	}
+
+	&__mobile-menu {
+		width: 20px;
+		height: 20px;
+        display: flex;
+        flex-direction: column;
+
+        &__bar {
+            display: block;
+            width: 20px;
+            height: 3px;
+            background-color: $colorBlue-300;
+            transition: all 0.4s ease-in-out;
+
+			& > * + * {
+				margin: 0 0 4px 0;
+			}
+        }
+
+        &.active &__bar:nth-child(2) {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+
+        &.active &__bar:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+
+        &.active &__bar:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+	}
+}

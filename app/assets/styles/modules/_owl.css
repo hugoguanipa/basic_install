@@ -1,0 +1,11 @@
+.owl {
+	& > * + * {
+		margin: var(--gap, 1em) 0 0 0;
+	}
+
+	@mixin atSmall {
+		& > * + * {
+			margin: 0 0 0 var(--gap, 1em);
+		}
+	}
+}
