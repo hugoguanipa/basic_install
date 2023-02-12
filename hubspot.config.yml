@@ -1,0 +1,14 @@
+defaultPortal: PC_theme
+portals:
+  - name: PC_theme
+    portalId: 22223098
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CNPZm9zjMBIJAA0AAAAA4A0DGPqxzAoglIblFSju6QwyFLYdehAwY_fBtSUwU3glzckpy03aOjcAAARBAAAAeAAAAAAAAAAAAAAAAAAAAAQAAMAHAP7_MTwAAAYAAABgAAAAAAAAAAAAAAAAADACQhQn_STZfUfntEVYu19otwJNc1GWWkoDbmExUgBaAA
+        expiresAt: '2023-02-10T13:32:23.636Z'
+    personalAccessKey: >-
+      CiQ4YTViYWNjNy0yNWIwLTRiMzctOTAzNy02N2QwNDk3Y2JlMmUQ-rHMChiUhuUVKhkABeaRghIlC8fyviN7V1JIY8F8-7N8OS-rSgNuYTE
+    sandboxAccountType: null
+    parentAccountId: null

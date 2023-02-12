@@ -5,6 +5,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 const fse = require('fs-extra')
+const HubSpotAutoUploadPlugin = require('@hubspot/webpack-cms-plugins/HubSpotAutoUploadPlugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 let cssConfig = {
     test: /\.css$/i,
@@ -82,5 +84,3 @@ if(currentTask == 'build') {
         new RunAfterCompile()
         )
 } 
-
-module.exports = config
